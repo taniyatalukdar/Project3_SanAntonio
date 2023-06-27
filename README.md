@@ -22,4 +22,5 @@ To get started with the San Antonio Restaurants Dashboard, follow these steps:
 1. Start the application:
 2. Open your web browser and go to `http://localhost:5000` to access the dashboard.
 3. Explore the various visualizations and interact with the features.
+   
 ![alt text](Images/Screenshot%202023-06-26%20at%208.33.00%20PM.png)
