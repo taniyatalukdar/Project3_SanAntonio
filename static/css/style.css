@@ -32,18 +32,19 @@ body {
   height: 100vh;
   background-color: #ffe6eb;
 }
+
 #map,
 
 html {
   height: 100%;
 }
 
-.main-grid{
+.main-grid {
   display: grid;
   grid-template-columns: 20% 80%;
 }
 
-#map{
+#map {
   height: 600px;
 }
 
@@ -52,55 +53,80 @@ html {
   padding: 30px;
 
 }
-.mapColumn{
+
+.mapColumn {
   grid-row: span 1 / span 1;
   grid-column-start: 2;
   height: 100%;
   padding: 30px;
 }
-.chartColumns{
+
+.chartColumns {
   grid-row: span 1 / span 1;
   grid-column-start: 2;
   height: 100%;
   padding: 30px;
 }
-.dropDownColumn{
+
+.dropDownColumn {
   grid-row: span 2/ span 2;
   height: 100%;
   padding: 30px;
 }
 
-.restaurantList{
+.restaurantList {
   padding: 30px;
-  border:1px solid #79c2d0;
+  border: 1px solid #79c2d0;
   background-color: #e3f6f5;
 
 }
-#restaurantList{
+
+#restaurantList {
   max-width: 100%;
 }
 
-#badCanvas1{
+#badCanvas1 {
   background-color: beige;
 }
 
-html, body {
-  width: 100%;
-  height:100%;
-}
+html,
 body {
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+  width: 100%;
+  height: 100%;
 }
+
+body {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+footer {
+  display: block;
+  text-align: center;
+  height: 50px;
+  background: #eeeeee;
+  font-family: cursive;
+}
+
+.title {
+  font-family: fantasy;
+}
+
+.description {
+  font-family: fantasy;
 }
