@@ -81,21 +81,20 @@ data.then(function (response) {
     },
     options: {
       scales: {
-        x: {
-          title: {
+        xAxes: [{
+          scaleLabel: {
             display: true,
-            text: 'Restaurant Names'
+            labelString: 'Restaurant Names'
           }
-        },
-        y: {
-          title: {
+        }],
+        yAxes: [{
+          scaleLabel: {
             display: true,
-            text: 'Score'
+            labelString: 'Score'
           }
-        }
-      }     
+        }]
+      }
     }
-
   });
 
   restaurantList.addEventListener("change", function (event) {
